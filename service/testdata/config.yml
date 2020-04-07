@@ -1,0 +1,13 @@
+data_source:
+  - testdata/ABC-3xx.csv
+  - testdata/ABC-4xx.csv
+  - testdata/ABC-8xx.csv
+  - testdata/DEF-9xx.csv
+exceptions: testdata/exceptions.yml
+regions: testdata/regions.yml
+db:
+  host: localhost
+  name: asterisk
+  table: test
+  user: asterisk
+  password: asterisk

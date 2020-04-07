@@ -1,0 +1,17 @@
+data_source:
+  - https://rossvyaz.ru/data/ABC-3xx.csv
+  - https://rossvyaz.ru/data/ABC-4xx.csv
+  - https://rossvyaz.ru/data/ABC-8xx.csv
+  - https://rossvyaz.ru/data/DEF-9xx.csv
+#  - ../service/testdata/ABC-3xx.csv
+#  - ../service/testdata/ABC-4xx.csv
+#  - ../service/testdata/ABC-8xx.csv
+#  - ../service/testdata/DEF-9xx.csv
+exceptions: exceptions.yml
+regions: regions.yml
+db:
+  host: localhost
+  name: asterisk
+  table: codes
+  user: asterisk
+  password: asterisk

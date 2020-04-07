@@ -1,0 +1,24 @@
+correct records amount: 1
+inserted 1 records
+{
+    "unknown_regions": [
+        {
+            "First": 100,
+            "Last": 199,
+            "Range": 99,
+            "Provider": "A",
+            "SourceRegion": "B",
+            "Region": 1
+        }
+    ],
+    "wrong_records": {
+        "oops": [
+            "1",
+            "2"
+        ]
+    },
+    "warnings": [
+        "foo",
+        "bar"
+    ]
+}
